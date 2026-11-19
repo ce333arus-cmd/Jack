@@ -1,4 +1,24 @@
-# Cybersigil fairing decals – vector files
+# Cybersigil decal set (original designs)
+
+New designs in the style of the reference bike: flowing masses built from packed, outlined
+thorn cells, with outlined crescent claws, needles and thorny lobes. No text.
+Run `python3 sigil.py` to regenerate. Each design is a function in `sigil.py`, and changing
+the `Piece(seed)` number gives a new variation of the same layout.
+
+| Piece | File | Size (mm) |
+|---|---|---|
+| Side fairing, upper | `print/sigil_side_upper*` | 677 × 311 |
+| Side fairing, lower | `print/sigil_side_lower*` | 501 × 190 |
+| Front cowl | `print/sigil_front_cowl*` | 278 × 574 |
+| Tank | `print/sigil_tank*` | 362 × 149 |
+| Tail | `print/sigil_tail*` | 337 × 116 |
+
+Lines: 1.4 mm outlines, 1.1 mm cell lines. Keep them at 1.0 mm or more after scaling if cutting vinyl.
+Files: `.svg` (white), `_black.svg`, `_mirrored.svg` (other side), `.pdf` (for print shops).
+
+---
+
+## Traced versions of the original (`print/side_*`, `print/front_cowl*`)
 
 Line-art redrawn from photos of the original decals (no text).
 Everything in `print/` is real size in **millimetres**. The line weight is **1.6 mm** on every piece.
